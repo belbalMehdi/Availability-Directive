@@ -1,0 +1,16 @@
+.horaire{
+  width : 80vw;
+  height : 45px;
+  border : 1px outset rgba(249, 4, 46, 0.8);
+  box-shadow: 0px 2px 5px 0px rgba(249, 4, 46, 0.8);
+  border-radius: 50px;
+  display:flex;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.horaire .horaire-part{
+  width : 3.7%;
+  height : 100%;
+  background-color : rgba(249, 4, 46, 0.2);
+}

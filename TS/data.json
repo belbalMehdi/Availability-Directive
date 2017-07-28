@@ -1,0 +1,7 @@
+{
+  "data" : [
+    {"type" : "Salle"},
+    {"type" : "Materiel"},
+    {"type" : "Vehicule"}
+  ]
+}

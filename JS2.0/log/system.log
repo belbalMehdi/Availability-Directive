@@ -1,0 +1,9 @@
+[2017-06-26 17:43:22.036] [WARN] logger - hello world
+[2017-06-26 17:43:22.044] [ERROR] logger - hello world
+[2017-06-26 17:43:22.044] [FATAL] logger - hello world
+[2017-06-26 17:43:32.421] [WARN] logger - hello world
+[2017-06-26 17:43:32.428] [ERROR] logger - hello world
+[2017-06-26 17:43:32.429] [FATAL] logger - hello world
+[2017-06-26 17:43:57.323] [WARN] logger - hello world
+[2017-06-26 17:43:57.330] [ERROR] logger - hello world
+[2017-06-26 17:43:57.331] [FATAL] logger - hello world

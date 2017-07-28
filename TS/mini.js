@@ -1,0 +1,1 @@
+var fs=require("fs");console.log(process.argv);fs.readFile("app.js","utf-8",function(err,js){var out=js.replace(/\s{2,}/g,"");var out=out.replace(/;\s*/g,";");var out=out.replace(/=\s*/g,"=");var out=out.replace(/\s*=/g,"=");fs.writeFile("mini.js",out);})

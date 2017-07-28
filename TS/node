@@ -1,0 +1,1 @@
+var fs=require("fs");var inFile=process.argv[2];var outFile=process.argv[3];var js=fs.readFileSync(inFile,"utf-8");function processJs(js){var out=js.replace(/\s{2,}/g,"");var out=out.replace(/;\s*/g,";");var out=out.replace(/=\s*/g,"=");var out=out.replace(/\s*=/g,"=");return out;}var out=processJs(js);fs.writeFile(outFile,out);console.log(out);

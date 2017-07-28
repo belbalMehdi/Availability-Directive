@@ -1,0 +1,11 @@
+var log4js = require("log4js");
+log4js.loadAppender("file");
+log4js.addAppender(log4js.appenders.file("log/system.log"),"logger");
+var logger = log4js.getLogger("logger");
+logger.setLevel("warn");
+logger.trace("hello world");
+logger.info("hello world");
+logger.debug("hello world");
+logger.warn("hello world");
+logger.error("hello world");
+logger.fatal("hello world");
